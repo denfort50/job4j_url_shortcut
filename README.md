@@ -4,9 +4,9 @@
 * Java 17
 * PostgreSQL 14
 * Apache Maven 3.8.5
-* Spring Boot 2.7.8
+* Spring Boot 2.7.5
 * Lombok 3.6.3
-* Checkstyle 8.29
+* Checkstyle 10.7.0
 
 ## Контакты для связи
 [![alt-text](https://img.shields.io/badge/-telegram-grey?style=flat&logo=telegram&logoColor=white)](https://t.me/kalchenko_denis)&nbsp;&nbsp;

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS links (
+    id SERIAL PRIMARY KEY,
+    code VARCHAR NOT NULL UNIQUE,
+    count INT NOT NULL,
+    link VARCHAR NOT NULL,
+    website_id INT NOT NULL UNIQUE REFERENCES websites(id)
+);
