@@ -9,7 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import javax.sql.DataSource;
 
 @SpringBootApplication
-public class Job4jUrlShortcutApplication {
+public class UrlShortcutApplication {
 
 	@Bean
 	public BCryptPasswordEncoder passwordEncoder() {
@@ -25,7 +25,7 @@ public class Job4jUrlShortcutApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(Job4jUrlShortcutApplication.class, args);
+		SpringApplication.run(UrlShortcutApplication.class, args);
 	}
 
 }
